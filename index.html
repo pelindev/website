@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/includes/favicon.ico" type="image/x-icon">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-  <title>Document</title>
+  <title>PelinDev</title>
 </head>
 <body>
     <div class="main-background"></div>
@@ -36,10 +37,10 @@
 
         <!-- контент хедера -->
         <div class= "header-block-top">
-            <p class="animate__animated animate__backInLeft" style="width: 80%;">Здесь начинается мой путь в мир IT. На этом сайте я 
+            <p class="animate__animated animate__backInLeft" style="width: 80%;">На этом сайте я 
                 постараюсь реализовать свои способности Front-end разработчика.
             </p>
-            <p class="animate__animated animate__backInRight">Всё всегда начинается с малого.</p>
+            <p class="animate__animated animate__backInRight">Весь контент взят из головы.</p>
         </div>
         
     </div>
@@ -51,26 +52,25 @@
             <h1>Вы можете заказать у меня</h1>
             <div class="services-content">
                 <div class="services-block">
-                    <img src="includes/html.png" alt="">
+                    <img src="includes/html.png" alt="html">
                     <h2>Вёрстку сайта</h2>
                     <p>сверстаю сайт по вашему дизайну, адаптивно, кроссплатформенно</p>
                 </div>
 
                 <div class="services-block">
-                    <img src="includes/php.png" alt="">
+                    <img src="includes/php.png" alt="php">
                     <h2>Динамический сайт</h2>
                     <p>создам динамический проект, основываясь на вашей задаче</p>
                 </div>
 
                 <div class="services-block">
-                    <img src="includes/gitlab.png" alt="">
+                    <img src="includes/gitlab.png" alt="gitlab">
                     <h2>Помощь с проектом</h2>
                     <p>помогу с уже существующим проектом, проконсультирую по всем вопросам, относительно проекта</p>
                 </div>
             </div>
             <hr>
-            <a href=""><div class="btn">посмотреть портфолио</div></a>
-           
+            <a href="#"><div class="btn">посмотреть портфолио</div></a>
         </div>
     </div>
 
@@ -87,7 +87,7 @@
             <h1>Кто я такой?</h1>
             <hr>
             <div class="about-content-top">
-                <img src="includes/for-site.jpg" alt="">
+                <img src="includes/for-site.jpg" alt="my-photo">
                 <p>Меня зовут Никита. Мне 24 года. Я выпускник ДГТУ, 
                     факультет информационная безопасность. С 2021 работаю во
                     Front-end. Мой стек технологий: html, css, 
@@ -118,15 +118,15 @@
                 <input type="text">
                 <span>Ваш email</span>
                 <input type="email">
-                <span>Ваше сообщение<i class="fas fa-arrow-up"></i></span>
+                <span>Ваше сообщение</span>
                 <input type="text">
                 <input type="submit">
             </form>
             <div class="social">
-                <a href=""><img src="includes/instagram.png" alt=""></a>
-                <a href="https://t.me/pelin_dev"><img src="includes/telegram.png" alt=""></a>
-                <a href="https://vk.com/cheeselamber"><img src="includes/vk.png" alt=""></a>
-                <a href=""><img src="includes/whatsapp.png" alt=""></a>
+                <a href=""><img src="includes/instagram.png" alt="instagram"></a>
+                <a href="https://t.me/pelin_dev"><img src="includes/telegram.png" alt="telegram"></a>
+                <a href="https://vk.com/cheeselamber"><img src="includes/vk.png" alt="vk"></a>
+                <a href=""><img src="includes/whatsapp.png" alt="whatsapp"></a>
             </div>
         </div>
     </div>
@@ -142,5 +142,16 @@
             }
         })
     </script>
+    <div class="donate">
+        <div id="close-icon"><img src="/includes/close-icon.png" alt="close-icon"></div>
+        <form action="donate.php">
+            <label>
+                <p>Введите желаемую сумму пожертвования</p>
+                <input type="text" value="1">
+            </label>
+            <input type="submit" value="Пожертвовать">
+        </form>
+    </div>
+    <script src="/donate.js"></script>
 </body>
 </html>

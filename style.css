@@ -410,14 +410,14 @@ a{
     flex-direction: column;
 }
 
-input{
+.contacts input{
     height: 30px;
     font-size: 20px;
     margin-bottom: 10px;
-    width: 196px;
+    
 }
 
-input[type=submit]{
+.contacts input[type=submit]{
     height: 50px;
     width: 200px;
     margin-bottom: 60px;
@@ -454,8 +454,8 @@ input[type=submit]{
         align-items: center;
     }
 
-    input {
-        width: 100%;
+    .contacts input {
+        width: 196px;
     }
 }
 
@@ -469,6 +469,56 @@ input[type=submit]{
 
 #up img {
     width: 50px;
+}
+
+.donate {
+    display: none;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.692);
+    top: 75%;
+    left: 1%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.donate form {
+    display: flex;
+    font-family: Comfortaa;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.donate form p {
+    font-size: 20px;
+}
+
+.donate input[type=text] {
+    text-align: center;
+    width:70px;
+    height: 40px;
+}
+
+.donate input[type=submit] {
+    width: 130px;
+    height: 50px;
+}
+
+.donate input {
+    font-family: Montserrat;
+    margin-top: 20px;
+}
+
+#close-icon {
+    position: relative;
+    left: 90%;
+    margin-bottom: 10px;
+    max-width: 30px;
+    cursor: pointer;
+}
+
+#close-icon img{
+    width: 30px;
 }
 
 @font-face {
