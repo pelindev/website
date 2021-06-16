@@ -215,6 +215,11 @@ a{
 
 .services>.container>h1{
     font-size: 40px;
+    text-align: center;
+}
+
+.about .container h2 {
+    text-align: center;
 }
 
 .services-block{
@@ -262,6 +267,7 @@ a{
         height: auto;
         padding: 100px 0;
     }
+    
 }
 
 .semi-block{
@@ -289,6 +295,15 @@ a{
     text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+    .semi-block {
+        background: none;
+    }
+    .semi-block-content {
+        background-color: rgb(73, 55, 173);
+    }
+}
+
 .about{
     background: rgb(255, 255, 255);
     display: flex;
@@ -311,7 +326,7 @@ a{
 
 .about-content-top img{
     border-radius: 360px;
-    width: 10%;
+    width: 150px;
     margin-right: 50px;
 }
 
@@ -332,12 +347,40 @@ a{
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .reviews{
-    margin: 0 25px;
+    margin: 0 3%;
+    width: 20%;
     line-height:1.2;
     font-style: italic;
+}
+
+@media screen and (max-width: 956px) {
+    .about-content-top{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-content-top>img{
+        width: 100px;
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .about-content-bot {
+        flex-direction: column;
+    }
+    .reviews {
+        width: 100%;
+        padding-bottom: 40px;
+    }
 }
 
 .contacts{
@@ -367,11 +410,13 @@ input{
     height: 30px;
     font-size: 20px;
     margin-bottom: 10px;
+    width: 196px;
 }
 
 input[type=submit]{
     height: 50px;
     width: 200px;
+    margin-bottom: 60px;
 }
 
 .social{
@@ -383,6 +428,31 @@ input[type=submit]{
 
 .social img{
     width: 50px;
+}
+
+@media screen and (max-width: 520px) {
+    .contacts h1 {
+        text-align: center;
+    }
+    .contacts .container {
+        flex-direction: column;
+    }
+    .social {
+        flex-direction: row;
+        padding-left: 0;
+    }
+    .social img{
+        width: 30px;
+    }
+    .contacts form {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+    }
 }
 
 @font-face {
