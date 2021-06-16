@@ -8,15 +8,13 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <title>Document</title>
+    />
+  <title>Document</title>
 </head>
 <body>
     <div class="main-background"></div>
     <div class="header">
         <!-- шапка сайта -->
-        
-        
         <a name="home"></a>
         <div class="menu">
             <div class="logo">PelinDev</div>
@@ -34,7 +32,7 @@
                 <li class="menu-item menu_hide"><a href="#contacts">Контакты</a></li>
             </ul>
         </div>
-        <script src="/script.js"></script>
+        <script src="/burger-menu.js"></script>
 
         <!-- контент хедера -->
         <div class= "header-block-top">
@@ -120,7 +118,7 @@
                 <input type="text">
                 <span>Ваш email</span>
                 <input type="email">
-                <span>Ваше сообщение</span>
+                <span>Ваше сообщение<i class="fas fa-arrow-up"></i></span>
                 <input type="text">
                 <input type="submit">
             </form>
@@ -132,5 +130,17 @@
             </div>
         </div>
     </div>
+    <div id="up"><a href="#home"><img src="/includes/arrow-up.png" alt="arrow-up"></a></div>
+    <script >
+        let btn = document.getElementById('up')
+        window.addEventListener('scroll', function() {
+            if (pageYOffset >= 100){
+                btn.style.display = 'block'
+            }
+            else {
+                btn.style.display = 'none'
+            }
+        })
+    </script>
 </body>
 </html>

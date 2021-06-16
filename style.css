@@ -455,6 +455,18 @@ input[type=submit]{
     }
 }
 
+#up {
+    display: none;
+    color: black;
+    position: fixed;
+    left:90%;
+    bottom: 10%;
+}
+
+#up img {
+    width: 50px;
+}
+
 @font-face {
     font-family: Comfortaa;
     src: url(includes/fonts/Comfortaa/Comfortaa-Bold.ttf);
