@@ -19,7 +19,7 @@ a{
 }
 
 .main-background{
-    background-image: url(includes/home.jpg); 
+    background-image: url(../../includes/home.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     position: fixed;
@@ -276,7 +276,7 @@ a{
 
 .semi-block{
     height: 20vh;
-    background: url(includes/semi-block.jpg);
+    background: url(../../includes/semi-block.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -523,12 +523,12 @@ a{
 
 @font-face {
     font-family: Comfortaa;
-    src: url(includes/fonts/Comfortaa/Comfortaa-Bold.ttf);
+    src: url(../../includes/fonts/Comfortaa/Comfortaa-Bold.ttf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(includes/fonts/Montserrat/Montserrat-Medium.ttf);
+    src: url(../../includes/fonts/Montserrat/Montserrat-Medium.ttf);
     font-weight: normal;
     font-style: normal;
 }

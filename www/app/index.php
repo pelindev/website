@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <link rel="shortcut icon" href="/includes/favicon.ico" type="image/x-icon">
     <link
     rel="stylesheet"
@@ -33,7 +33,7 @@
                 <li class="menu-item menu_hide"><a href="#contacts">Контакты</a></li>
             </ul>
         </div>
-        <script src="/burger-menu.js"></script>
+        <script src="/src/js/burger-menu.js"></script>
 
         <!-- контент хедера -->
         <div class= "header-block-top">
@@ -142,16 +142,7 @@
             }
         })
     </script>
-    <div class="donate">
-        <div id="close-icon"><img src="/includes/close-icon.png" alt="close-icon"></div>
-        <form action="donate.php">
-            <label>
-                <p>Введите желаемую сумму пожертвования</p>
-                <input type="text" value="1">
-            </label>
-            <input type="submit" value="Пожертвовать">
-        </form>
-    </div>
-    <script src="/donate.js"></script>
+    <?php require_once('donate-form.php'); ?>
+    <script src="/src/js/donate.js"></script>
 </body>
 </html>
