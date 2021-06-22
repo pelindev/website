@@ -1,4 +1,4 @@
-window.setTimeout(donate, 2000)
+window.setTimeout(donate, 20000)
 
 function donate() {
     let form = document.querySelector('.donate')

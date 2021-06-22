@@ -8,10 +8,7 @@ $billId = 'cc961e8d-d4d6-4f02-b737-2297e51fb48e' . mt_rand(0,999) . '-' . mt_ran
 $fields = [
   'amount' => $_POST['value'],
   'currency' => 'RUB',
-  'comment' => 'test',
   'expirationDateTime' => '2021-08-02T08:44:07+03:00',
-  'email' => 'example@mail.org',
-  'account' => 'client4563'
 ];
 
 /** @var \Qiwi\Api\BillPayments $billPayments */
