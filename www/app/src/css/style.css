@@ -19,7 +19,7 @@ a{
 }
 
 .main-background{
-    background-image: url(../../includes/home.jpg); 
+    background-image: url(../../includes/img/home.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     position: fixed;
@@ -276,7 +276,7 @@ a{
 
 .semi-block{
     height: 20vh;
-    background: url(../../includes/semi-block.jpg);
+    background: url(../../includes/img/semi-block.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: 100%;

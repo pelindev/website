@@ -1,5 +1,5 @@
 <div class="donate">
-        <div id="close-icon"><img src="/includes/close-icon.png" alt="close-icon"></div>
+        <div id="close-icon"><img src="/includes/img/close-icon.png" alt="close-icon"></div>
         <form action="qiwi.php" method="POST">
             <label>
                 <p>Введите желаемую сумму пожертвования</p>

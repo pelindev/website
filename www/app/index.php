@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="shortcut icon" href="/includes/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/includes/img/favicon.ico" type="image/x-icon">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -48,19 +48,19 @@
             <h1>Вы можете заказать у меня</h1>
             <div class="services-content">
                 <div class="services-block">
-                    <img src="includes/html.png" alt="html">
+                    <img src="includes/img/html.png" alt="html">
                     <h2>Вёрстку сайта</h2>
                     <p>сверстаю сайт по вашему дизайну, адаптивно, кроссплатформенно</p>
                 </div>
 
                 <div class="services-block">
-                    <img src="includes/php.png" alt="php">
+                    <img src="includes/img/php.png" alt="php">
                     <h2>Динамический сайт</h2>
                     <p>создам динамический проект, основываясь на вашей задаче</p>
                 </div>
 
                 <div class="services-block">
-                    <img src="includes/gitlab.png" alt="gitlab">
+                    <img src="includes/img/gitlab.png" alt="gitlab">
                     <h2>Помощь с проектом</h2>
                     <p>помогу с уже существующим проектом, проконсультирую по всем вопросам, относительно проекта</p>
                 </div>
@@ -83,7 +83,7 @@
             <h1>Кто я такой?</h1>
             <hr>
             <div class="about-content-top">
-                <img src="includes/for-site.jpg" alt="my-photo">
+                <img src="includes/img/for-site.jpg" alt="my-photo">
                 <p>Меня зовут Никита. Мне 24 года. Я выпускник ДГТУ, 
                     факультет информационная безопасность. С 2021 работаю во
                     Front-end. Мой стек технологий: html, css, 
@@ -119,14 +119,14 @@
                 <input type="submit">
             </form>
             <div class="social">
-                <a href=""><img src="includes/instagram.png" alt="instagram"></a>
-                <a href="https://t.me/pelin_dev"><img src="includes/telegram.png" alt="telegram"></a>
-                <a href="https://vk.com/cheeselamber"><img src="includes/vk.png" alt="vk"></a>
-                <a href=""><img src="includes/whatsapp.png" alt="whatsapp"></a>
+                <a href=""><img src="includes/img/instagram.png" alt="instagram"></a>
+                <a href="https://t.me/pelin_dev"><img src="includes/img/telegram.png" alt="telegram"></a>
+                <a href="https://vk.com/cheeselamber"><img src="includes/img/vk.png" alt="vk"></a>
+                <a href=""><img src="includes/img/whatsapp.png" alt="whatsapp"></a>
             </div>
         </div>
     </div>
-    <div id="up"><a href="#home"><img src="/includes/arrow-up.png" alt="arrow-up"></a></div>
+    <div id="up"><a href="#home"><img src="/includes/img/arrow-up.png" alt="arrow-up"></a></div>
     <script >
         let btn = document.getElementById('up')
         window.addEventListener('scroll', function() {
