@@ -1,1 +1,4 @@
+.DS_Store
+www/.DS_Store
+www/app/.DS_Store
 /logs/nginx/*.log

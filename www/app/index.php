@@ -21,11 +21,7 @@
             <div class="logo">PelinDev</div>
             <ul>
                 <li>
-                    <div class="burger">
-                        <a href="#" class="burger-btn">
-                            <span></span>
-                        </a>
-                    </div>
+                    <? require_once('burger-menu.php'); ?>
                 </li>
                 <li class="menu-item menu_hide"><a href="#home">Домой</a></li>
                 <li class="menu-item menu_hide"><a href="#services">Услуги</a></li>
