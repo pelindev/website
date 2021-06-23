@@ -112,11 +112,11 @@
             <form action="">
                 <h1>Связаться со мной можно здесь</h1>
                 <span>Ваше имя</span>
-                <input type="text">
+                <input type="text" name="name">
                 <span>Ваш email</span>
-                <input type="email">
+                <input type="email" name="email">
                 <span>Ваше сообщение</span>
-                <input type="text">
+                <input type="text" name="message">
                 <input type="submit">
             </form>
             <div class="social">

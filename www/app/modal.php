@@ -23,10 +23,12 @@
 <script>
     document.getElementById('portfolio-btn').onclick = function() {
         document.querySelector('.modal').style.display = 'block'
+        document.getElementsByTagName('body')[0].style.overflow = 'hidden'
         document.querySelector('.modal-window').style.marginTop = '-1000px'
         setTimeout(() => document.querySelector('.modal-window').style.marginTop = '0', 1);
         
         document.getElementById('modal-close-icon').onclick = function() {
+            document.getElementsByTagName('body')[0].style.overflow = 'visible'
             document.querySelector('.modal').style.display = 'none'
         }
     }
