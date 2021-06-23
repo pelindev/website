@@ -66,7 +66,8 @@
                 </div>
             </div>
             <hr>
-            <a href="#"><div class="btn">посмотреть портфолио</div></a>
+            <div class="btn" id="portfolio-btn">посмотреть портфолио</div>
+            
         </div>
     </div>
 
@@ -140,5 +141,6 @@
     </script>
     <?php require_once('donate-form.php'); ?>
     <script src="/src/js/donate.js"></script>
+    <?require_once('modal.php');?>
 </body>
 </html>
