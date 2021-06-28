@@ -21,7 +21,7 @@
             <div class="logo">PelinDev</div>
             <ul>
                 <li>
-                    <? require_once('burger-menu.php'); ?>
+                    <?require_once('burger-menu.php');?>
                 </li>
                 <li class="menu-item menu_hide"><a href="#home">Домой</a></li>
                 <li class="menu-item menu_hide"><a href="#services">Услуги</a></li>
@@ -127,7 +127,7 @@
             </div>
         </div>
     </div>
-    <div id="up"><a href="#home"><img src="/includes/img/arrow-up.png" alt="arrow-up"></a></div>
+    <div id="up"><a href="#home"><div id="arrow-top"></div></a></div>
     <script >
         let btn = document.getElementById('up')
         window.addEventListener('scroll', function() {
@@ -139,7 +139,7 @@
             }
         })
     </script>
-    <?php require_once('donate-form.php'); ?>
+    <?require_once('donate-form.php');?>
     <script src="/src/js/donate.js"></script>
     <?require_once('modal.php');?>
 </body>
