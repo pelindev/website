@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
     <link rel="shortcut icon" href="/includes/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>PelinDev</title>
@@ -20,7 +19,7 @@
             <div class="logo">PelinDev</div>
             <ul>
                 <li>
-                    <? require_once('burger-menu.php'); ?>
+                    <? require_once('/var/www/app/burger-menu.php'); ?>
                 </li>
                 <li class="menu-item menu_hide"><a href="#home">Домой</a></li>
                 <li class="menu-item menu_hide"><a href="#services">Услуги</a></li>
@@ -28,7 +27,6 @@
                 <li class="menu-item menu_hide"><a href="#contacts">Контакты</a></li>
             </ul>
         </div>
-        <script src="/src/js/burger-menu.js"></script>
 
         <!-- контент хедера -->
         <div class="header-block-top">
@@ -47,19 +45,19 @@
             <h1>Вы можете заказать у меня</h1>
             <div class="services-content">
                 <div class="services-block services-block-start">
-                    <img src="includes/img/html.png" alt="html">
+                    <img src="/includes/img/html.png" alt="html">
                     <h2>Вёрстку сайта</h2>
                     <p>сверстаю сайт по вашему дизайну, адаптивно, кроссплатформенно</p>
                 </div>
 
                 <div class="services-block">
-                    <img src="includes/img/php.png" alt="php">
+                    <img src="/includes/img/php.png" alt="php">
                     <h2>Динамический сайт</h2>
                     <p>создам динамический проект, основываясь на вашей задаче</p>
                 </div>
 
                 <div class="services-block services-block-end">
-                    <img src="includes/img/gitlab.png" alt="gitlab">
+                    <img src="/includes/img/gitlab.png" alt="gitlab">
                     <h2>Помощь с проектом</h2>
                     <p>помогу с уже существующим проектом, проконсультирую по всем вопросам, относительно проекта</p>
                 </div>
@@ -85,7 +83,7 @@
             <h1 id="about-header">Кто я такой?</h1>
             <hr>
             <div class="about-content-top">
-                <img id="about-img" src="includes/img/for-site.jpg" alt="my-photo">
+                <img id="about-img" src="/includes/img/for-site.jpg" alt="my-photo">
                 <p>Меня зовут Никита. Мне 24 года. Я выпускник ДГТУ,
                     факультет информационная безопасность. С 2021 работаю во
                     Front-end. Мой стек технологий: html, css,
@@ -151,10 +149,8 @@
             }
         })
     </script>
-    <script src="/src/js/animate-page.js"></script>
-    <? require_once('donate-form.php'); ?>
-    <script src="/src/js/donate.js"></script>
-    <? require_once('modal.php'); ?>
+    <? require_once('/var/www/app/donate-form.php'); ?>
+    <? require_once('/var/www/app/modal.php'); ?>
 </body>
 
 </html>
