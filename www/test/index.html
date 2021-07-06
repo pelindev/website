@@ -144,19 +144,19 @@
     </div>
 
     <script>
-        var btn = $(".faq_info_btn");
-        var btnContent = $(".faq_info_content");
-        var icon = $(".toggle-icon");
-        var iOS = /iPad|iPhone|iPod|Version/.test(navigator.userAgent) && !window.MSStream; 
+        var btn = $(".faq_info_btn"),
+            btnContent = $(".faq_info_content"),
+            icon = $(".toggle-icon"),
+            iOS = /iPad|iPhone|iPod|Version/.test(navigator.userAgent) && !window.MSStream; 
 
-        if ((!iOS && window.innerWidth > 760) || (iOS && window.innerWidth > 765)) {
+        if ((!iOS && window.innerWidth > 760) || (iOS && window.innerWidth > 775)) {
             btnContent.first().addClass("faq_info_show");
             btn.first().addClass('faq_info_btn_active');
         };
 
         btn.each(function(index) {
             btn.eq(index).on('click', function() {
-                if ((!iOS && window.innerWidth > 760) || (iOS && window.innerWidth > 765)) {
+                if ((!iOS && window.innerWidth > 760) || (iOS && window.innerWidth > 775)) {
                     btn.removeClass('faq_info_btn_active').eq(index).addClass('faq_info_btn_active');
                     btnContent.removeClass('faq_info_show').eq(index).addClass('faq_info_show');
                 }
