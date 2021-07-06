@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="35px" viewBox="0 0 50 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Banknote 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-3" transform="translate(-342.000000, -3594.000000)">
+            <g id="Banknote-2" transform="translate(343.000000, 3595.000000)">
+                <g id="Banknote">
+                    <path d="M48.0588,29.9052 C48.0588,30.4772 47.5288,30.8952 46.9688,30.7812 C43.8368,30.1462 41.1868,29.9112 39.2008,29.8252 C26.0388,29.2552 19.9088,34.2682 7.9508,32.8232 C4.9498,32.4602 2.4608,31.7972 0.6668,31.2172 C0.2968,31.0972 0.0588,30.7522 0.0588,30.3642 L0.0588,2.1822 C0.0588,1.6032 0.5958,1.1772 1.1608,1.3052 C2.7048,1.6562 4.9738,2.0932 7.7008,2.3512 C19.5348,3.4672 25.4058,-0.1868 38.3258,0.1022 C40.2438,0.1452 43.3718,0.2992 47.2918,0.9172 C47.7288,0.9862 48.0588,1.3672 48.0588,1.8102 L48.0588,29.9052 Z" id="Stroke-781" stroke="#545B63" stroke-linecap="round"></path>
+                    <circle id="Oval" fill-opacity="0.488472465" fill="#6DD400" cx="24" cy="14" r="7"></circle>
+                    <path d="M30.0587,16.0277 C30.0587,19.3417 27.3727,22.0277 24.0587,22.0277 C20.7447,22.0277 18.0587,19.3417 18.0587,16.0277 C18.0587,12.7147 20.7447,10.0277 24.0587,10.0277 C27.3727,10.0277 30.0587,12.7147 30.0587,16.0277 Z" id="Stroke-782" stroke="#545B63" stroke-linecap="round"></path>
+                    <path d="M39.3358,3.641 C40.8118,3.763 42.5188,3.953 44.4098,4.252" id="Stroke-783" stroke="#545B63" stroke-linecap="round"></path>
+                    <path d="M4.1245,5.5622 C5.4045,5.8512 7.1825,6.1982 9.3055,6.4532" id="Stroke-784" stroke="#545B63" stroke-linecap="round"></path>
+                    <path d="M39.3358,25.9215 C40.8118,26.0435 42.5188,26.2335 44.4098,26.5325" id="Stroke-785" stroke="#545B63" stroke-linecap="round"></path>
+                    <path d="M4.1245,28.0077 C5.4045,28.2967 7.1825,28.6437 9.3055,28.8987" id="Stroke-786" stroke="#545B63" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,849 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.main_info {
+    background-color: #fff;
+}
+
+.main_info .logo {
+    padding: 59px 3.15%;
+    
+}
+
+.main_info .logo img {
+    width: 177px;
+}
+
+.visual-area {
+    padding: 63px 0 48px;
+    margin: 0 0 119px;
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.main_info_left {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 1400px){
+    .visual-area .info-block {
+        width: 101%;
+    }
+}
+.info-block {
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    color: #123;
+}
+
+.info-block .h1, .info-block h1 {
+    line-height: 1.5;
+    margin: 0 0 17px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.visual-area .info-block p {
+    margin: 0 0 54px;
+}
+
+.submit-quote {
+    border: 2px solid #0086fa;
+    margin: 0 0 26px;
+    width: 439px;
+    height: 64px;
+    box-shadow: 0 2px 20px rgba(17, 34, 51, .1);
+    padding: 0 172px 0 0;
+    background: #fff;
+    border-radius: 2px;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+}
+
+.submit-quote .field-holder {
+    position: relative;
+    height: 100%;
+    padding: 0 40px 0 10px;
+    border: 1px solid #fff;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 10px 14px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(17,34,51,.3);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #dbe1e8;
+    border-radius: 3px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.submit-quote input[type=tel] {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: 0;
+    color: #123;
+    box-shadow: none;
+    background: 0 0;
+    padding: 0 10px;
+}
+
+.submit-quote .btn {
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    padding: 21px 5px;
+    border-radius: 0;
+    position: absolute;
+    width: 172px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    background-color: #0086fa;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 17px;
+    line-height: 1.2;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-transform: none;
+    overflow: visible;
+}
+
+.submit-quote .btn:hover {
+    background-color: #0074da
+}
+
+.submit-quote .field-holder {
+    position: relative;
+    height: 100%;
+    padding: 0 40px 0 10px;
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .visual-area .submit-quote {
+        border: none;
+        margin: 0 0 21px;
+        width: 100%;
+        height: auto;
+        background: 0 0;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+    .submit-quote .field-holder {
+        transition: border .6s ease;
+        box-shadow: 0 2px 20px rgba(17, 34, 51, .1);
+        border-radius: 2px;
+        background: #fff;
+        height: 64px;
+        margin: 0 0 15px;
+        border: 1px solid #0086fa;
+    }
+
+    .submit-quote .btn {
+        box-shadow: 0 2px 10px rgba(255, 159, 28, .3);
+        border-radius: 2px;
+        position: relative;
+        width: 100%;
+    }
+
+    .main_info_left {
+        max-width: 100%;
+    }
+
+    .main_info_left h1 {
+        line-height: 1.6;
+        margin: 0 0 22px;
+        font-size: 30px;
+    }
+
+    .main_info_right {
+        display: none;
+    }
+
+    .brands-area {
+        display: none;
+    }
+    .main_info {
+        height: 100vh;
+    }
+    .visual-area {
+        padding-top: 0;
+        margin: 0 0 119px;
+    }
+    
+    .visual-area .container {
+        max-width: 540px;
+    }
+    
+}
+
+.main_info_right {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.right_img {
+    position: relative;
+    margin: -60px 0 0;
+}
+@media (min-width: 1400px){
+    .right_img {
+        margin-right: -90px;
+    }
+}
+@media (min-width: 992px){
+    .right_img {
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+    }
+}
+@media (min-width: 992px){
+    .main_info_right {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+}
+
+
+@media (min-width: 1250px){
+    .main_info_right {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.right_img img {
+    width: 450px;
+}
+
+@media (min-width: 769px){
+    .right_img img {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1251px){
+    .right_img img {
+        width: 572px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .right_img {
+        position: inherit;
+        margin: 0 auto;
+    }
+}
+
+.brands-area {
+    position: relative;
+    text-align: center;
+    padding: 62px 0 0;
+}
+
+.brands-area .title {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #7a8897;
+    display: block;
+    margin: 0 0 26px;
+}
+
+.brands-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -10px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.brands-list li {
+    position: relative;
+    padding: 0 10px;
+    width: 155px;
+    display: list-item;
+}
+
+.insurance_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.insurance_info h1 {
+    padding: 42px 15px;
+}
+
+.insurance_info h2 {
+    padding: 15px 0;
+    height: 86px;
+}
+
+.insurance_info_content {
+    display: flex;
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.insurance_info_content_item {
+    width: 30%;
+    padding: 16px;
+}
+
+.insurance_info_content_item__pic {
+    width: 100px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.insurance_info__pic_1{
+    background-image: url(img/grapg_orange.svg);
+}
+
+.insurance_info__pic_2 {
+    background-image: url(img/cloud_b.svg);
+}
+
+.insurance_info__pic_3 {
+    background-image: url(img/lamp_g.svg);
+}
+
+@media screen and (max-width:1450px) {
+    .insurance_info_content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1245px) {
+    .insurance_info_content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1091px) {
+    .insurance_info_content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:876px) {
+    .insurance_info_content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .insurance_info h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .insurance_info_content_item {
+        width: 100%;
+    }
+}
+
+.compare_preview {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding: 100px 0;
+    background-color: #f9f8f4;
+}
+
+.compare_preview_pic {
+    background-image: url(img/_homepage-auto-rate-card_v2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 326px;
+    height: 326px;
+    padding: 0px 16px;
+}
+
+.compare_preview_content {
+    margin: auto 0;
+    padding: 0px 16px;
+    width: 20%;
+}
+
+.compare_preview_content h3{
+    margin: 0 0 16px;
+    font-size: 32px;
+}
+
+@media screen and (max-width:1100px) {
+    .compare_preview {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .compare_preview_content {
+        padding-top: 50px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .compare_preview h3 {
+        font-size: 20px;
+        margin: 0 0 16px;
+    }
+
+    .compare_preview_content {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .compare_preview_content {
+        width: 100%;
+    }
+}
+
+.faq_info {
+    padding: 75px 0;
+    background-color: #f6f8f9;
+}
+
+.faq_info_container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq_info_btn {
+    display: flex;
+    padding: 0 16px;
+    position: relative;
+    border-bottom: 1px solid #D6D6D6;
+    cursor: pointer;
+    transition: background-color .3s,box-shadow .3s,-webkit-box-shadow .3s;
+}
+
+.faq_info_btn img{
+    width: 50px;
+}
+
+.none_border {
+    border-bottom: none;
+}
+
+.faq_info_btn h3 {
+    padding-left: 20px;
+    padding-right: 61px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 1.22;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.faq_info_content h1 {
+    font-size: 20px;
+    
+}
+
+.faq_info_content p {
+    padding: 16px 0;
+    line-height: 1.5;
+}
+
+.toggle-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/arrow-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    left: 90%;
+    top: 35%;
+    transition: .3s;
+    transform: rotate(-180deg);
+}
+
+.toggle-icon-rotate {
+    transform: rotate(0deg);
+}
+
+.faq_info_content {
+    display: none;
+}
+
+.faq_info_show {
+    display: block;
+}
+
+.faq_info_btn_active{
+    border: 1px solid #c4cdd5;
+    border-radius: 10px;
+    box-shadow: 0 5px 13px 0 rgba(0, 2, 0, .18);
+}
+
+
+@media screen and (min-width:761px) {
+    .faq_info_btn img{
+        width: 87px;
+    }
+
+    .faq_info {
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .toggle-icon {
+        display: none;
+    }
+    
+    .faq_info_btn {
+        width: 270px;
+        cursor: pointer;
+    }
+    
+    .faq_info_btn h3 {
+        padding: 30px 16px;
+        line-height: 1.22;
+        font-size: 16px;
+        margin: auto 0;
+        font-size: 18px;
+    }
+    
+    .faq_info_btn img {
+        padding: 0 22px 0 15px;
+    }
+    
+    .faq_info_content {
+        position: absolute;
+        float: right;
+        width: 30%;
+        left: 40%;
+        font-size: 17px;
+    }
+    
+    .faq_info_content h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1670px) {
+    .faq_info_content {
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 1331px) {
+    .faq_info_content {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .faq_info_content {
+        left: 40%;
+        width: 50%;
+    }
+    .faq_info_container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .faq_info_content {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width:761px) {
+    .faq_info_content {
+        padding: 24px 24px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .toggle-icon {
+        left: 85%;
+    }
+    
+    .faq_info_container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.start_insurance_quotes {
+    text-align: center!important;
+    position: relative!important;
+    margin: 0 auto;
+}
+
+.start_insurance_quotes img {
+    width: 155px;
+    height: 80px;
+    margin-top: 54px;
+    margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .start_insurance_quotes img {
+        
+        margin-top: 71px;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .start_insurance_quotes h1 {
+        font-size: 32px;
+        line-height: 1.59;
+        color: #1b1b1b;
+    }
+}
+
+.start_insurance_quotes h1 {
+    font-weight: 900 !important;
+}
+
+.form-section-zwrap {
+    padding-top: 26px;
+    padding-bottom: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center !important; 
+    justify-content: center !important;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .form-section-zwrap {
+        padding-top: 27px;
+        padding-bottom: 62px;
+    }
+}
+
+.start_insurance_quotes_input {
+    border: 1px solid #c4cdd5;
+    color: #333647;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding-bottom: .5rem!important;
+    padding-top: .5rem!important;
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+@media screen and (min-width: 768px){
+    .start_insurance_quotes_input {
+        margin-left: 0px;
+        margin-right: 12px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .start_insurance_quotes_input, .start_insurance_quotes button{
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+
+    }
+}
+
+
+.form-section_zip {
+    width: 1px;
+    white-space: nowrap;
+    color: #333647;
+    display: table-cell!important;
+    vertical-align: middle!important;
+    margin-bottom: .5rem;
+
+}
+
+.form-section_zip:before {
+    content: '';
+    background-image: url(img/zip.svg);
+    display: inline-block;
+    height: 17px;
+    width: 15px;
+    background-size: 100%;
+    position: relative;
+    top: 2px;
+    right: 10px;
+    background-repeat: no-repeat;
+}
+
+.form-section_input {
+    color: #333647;
+    padding-left: .25rem!important;
+    padding-right: 0!important;
+    display: table-cell!important;
+    border-radius: 0!important;
+    border: 0!important;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 1px 2px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    outline: none;
+
+}
+
+.start_insurance_quotes button {
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: normal;
+    border-radius: 3px;
+    box-shadow: 0 8px 14px 0 rgba(0, 134, 250, .44);
+    background-color: #0086fa;
+    font-stretch: normal;
+    font-style: normal;
+    color: #fff!important;
+    font-weight: 700!important;
+    padding-bottom: .5rem!important;
+    padding-top: .5rem!important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    position: relative;
+    width: 100%;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+
+}
+
+.start_insurance_quotes button:hover{
+    background-color: #0074da
+ }
+
+@media screen and (min-width: 768px){
+    .start_insurance_quotes_input {
+        margin-left: 0px;
+        margin-right: 12px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .start_insurance_quotes button {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}

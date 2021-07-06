@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="48px" viewBox="0 0 50 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Shopping Basket Check 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-3" transform="translate(-340.000000, -3483.000000)">
+            <g id="Shopping-Basket-Check-2" transform="translate(340.000000, 3483.000000)">
+                <g id="Shopping-Basket-Check" transform="translate(0.000000, -0.000000)">
+                    <line x1="24.3347" y1="26.1955" x2="24.3347" y2="32.4535" id="Stroke-566" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="16.1615" y1="26.1955" x2="16.1615" y2="32.4535" id="Stroke-567" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <path d="M0.8104,20.3556 L0.8104,14.5146 C0.8104,14.3996 0.9504,14.3066 1.1234,14.3066 L47.4314,14.3066 C47.6034,14.3066 47.7434,14.3996 47.7434,14.5146 L47.7434,20.3556 C47.7434,20.4706 47.6034,20.5646 47.4314,20.5646 L1.1234,20.5646 C0.9504,20.5646 0.8104,20.4706 0.8104,20.3556 Z" id="Stroke-568" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M48.8103,37.851 C48.8103,43.035 44.6073,47.238 39.4233,47.238 C34.7653,47.238 30.8993,43.844 30.1633,39.395 C30.0803,38.893 30.0373,38.377 30.0373,37.851 C30.0373,35.088 31.2303,32.604 33.1303,30.887 C34.7953,29.381 37.0023,28.464 39.4233,28.464 C44.6073,28.464 48.8103,32.667 48.8103,37.851 Z" id="Stroke-569" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="42.5532" y1="35.5832" x2="38.1872" y2="40.1182" id="Fill-570" fill="#221F1F"></line>
+                    <line x1="42.5532" y1="35.5832" x2="38.1872" y2="40.1182" id="Stroke-571" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="36.2954" y1="38.1108" x2="38.1874" y2="40.1188" id="Fill-573" fill="#221F1F"></line>
+                    <line x1="36.2954" y1="38.1108" x2="38.1874" y2="40.1188" id="Stroke-574" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <path d="M26.1356,39.3996 L15.3956,39.4116 C12.7866,39.4146 10.4496,37.7986 9.5306,35.3566 L3.9966,20.6416" id="Stroke-576" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="44.6726" y1="20.642" x2="43.0506" y2="24.954" id="Stroke-577" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="28.6487" y1="0.7846" x2="41.9237" y2="14.0596" id="Stroke-578" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="20.0212" y1="0.7846" x2="6.7462" y2="14.0596" id="Stroke-579" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="24.335" y1="26.1955" x2="24.335" y2="32.4535" id="Stroke-580" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="32.3928" y1="26.1955" x2="32.3928" y2="28.2165" id="Stroke-581" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="16.1617" y1="26.1955" x2="16.1617" y2="32.4535" id="Stroke-582" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+                <path d="M9.10600836,17 L39.1446,17 C40.2491695,17 41.1446,17.8954305 41.1446,19 C41.1446,19.233105 41.1038489,19.4644155 41.0241869,19.6834861 L38.4787323,26.6834861 C38.191322,27.4738645 37.4401584,28 36.5991455,28 L12.2878265,28 C11.5035396,28 10.7916338,27.5415945 10.4670936,26.8276059 L7.2852754,19.8276059 C6.82820129,18.8220428 7.27283943,17.6363412 8.27840247,17.179267 C8.53831369,17.0611256 8.82050662,17 9.10600836,17 Z" id="Rectangle" fill-opacity="0.310833698" fill="#E02020"></path>
+            </g>
+        </g>
+    </g>
+</svg>

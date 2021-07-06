@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="40px" viewBox="0 0 50 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Book Open  3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-3" transform="translate(-339.000000, -3166.000000)">
+            <g id="Book-Open--3" transform="translate(340.000000, 3166.000000)">
+                <g id="Book-Open--2">
+                    <line x1="24.2957" y1="39.0332" x2="24.2957" y2="2.3592" id="Stroke-845" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <rect id="Rectangle" fill="#F0C7FB" x="30" y="9" width="12" height="12"></rect>
+                    <path d="M24.2957,2.359 C26.6857,1.335 31.5147,0.633 37.0957,0.633 C42.6767,0.633 45.9057,1.335 48.2957,2.359 L48.2957,39.033 C45.9057,38.009 42.6767,37.307 37.0957,37.307 C31.5147,37.307 26.6857,38.009 24.2957,39.033 C21.9057,38.009 17.0767,37.307 11.4957,37.307 C5.9147,37.307 2.6857,38.009 0.2957,39.033 L0.2957,2.359 C2.6857,1.335 5.9147,0.633 11.4957,0.633 C17.0767,0.633 21.9057,1.335 24.2957,2.359" id="Stroke-847" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="13.8958" y1="10.3018" x2="5.8958" y2="10.3018" id="Stroke-849" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="18.6958" y1="15.0675" x2="5.8958" y2="15.0675" id="Stroke-851" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="18.6958" y1="19.8331" x2="5.8958" y2="19.8331" id="Stroke-853" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <polygon id="Stroke-855" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round" points="30.696 20.627 41.896 20.627 41.896 9.507 30.696 9.507"></polygon>
+                    <line x1="42.6958" y1="25.3931" x2="29.8958" y2="25.3931" id="Stroke-857" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="42.6958" y1="30.1588" x2="29.8958" y2="30.1588" id="Stroke-858" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="18.6958" y1="24.5989" x2="5.8958" y2="24.5989" id="Stroke-859" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="18.6958" y1="29.3645" x2="5.8958" y2="29.3645" id="Stroke-860" stroke="#545B63" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
