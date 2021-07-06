@@ -149,58 +149,32 @@
         var icon = $(".toggle-icon");
         var iOS = /iPad|iPhone|iPod|Version/.test(navigator.userAgent) && !window.MSStream; 
 
-        
-    </script>
+        if ((!iOS && window.innerWidth > 760) || (iOS && window.innerWidth > 765)) {
+            btnContent.first().addClass("faq_info_show");
+            btn.first().addClass('faq_info_btn_active');
+        };
 
-    <!-- <script>
-        let btn = $(".faq_info_btn");
-        let btnContent = document.getElementsByClassName("faq_info_content");
-        let icon = document.getElementsByClassName("toggle-icon");
-        let iOS = /iPad|iPhone|iPod|Version/.test(navigator.userAgent) && !window.MSStream; 
-
-        function interactive(i) {
-            for (let k=0; k<btnContent.length; k++){
-                icon[k].classList.remove('toggle-icon-rotate');
-                btn[k].classList.remove('faq_info_btn_active');
-                if (btn[i] != btn[k]){
-                    btnContent[k].classList.remove('faq_info_show');
-                }
-            };
-            if (!btnContent[i].classList.contains('faq_info_show')){
-                btn[i].classList.toggle('faq_info_btn_active');
-                icon[i].classList.add('toggle-icon-rotate');
-                btnContent[i].classList.add('faq_info_show');
-            }
-            else {
-                icon[i].classList.remove('toggle-icon-rotate');
-                btnContent[i].classList.remove('faq_info_show');
-            };
-        }
-
-        if (window.innerWidth > 760) {
-            btnContent[0].classList.add('faq_info_show');
-            btn[0].classList.add('faq_info_btn_active');
-        }
-        for (let i = 0; i < btn.length; i++) {
-            btn[i].onclick = function() {
-                if (!iOS && window.innerWidth <= 760){
-                    interactive(i)
-                }
-                else if (iOS && window.innerWidth <= 775) {
-                    interactive(i)
+        btn.each(function(index) {
+            btn.eq(index).on('click', function() {
+                if ((!iOS && window.innerWidth > 760) || (iOS && window.innerWidth > 765)) {
+                    btn.removeClass('faq_info_btn_active').eq(index).addClass('faq_info_btn_active');
+                    btnContent.removeClass('faq_info_show').eq(index).addClass('faq_info_show');
                 }
                 else {
-                    for (let k=0; k<btnContent.length; k++){
-                        btn[k].classList.remove('faq_info_btn_active');
-                        btnContent[k].classList.remove('faq_info_show');
+                    if (!icon.eq(index).hasClass('toggle-icon-rotate')){
+                        icon.removeClass('toggle-icon-rotate').eq(index).addClass('toggle-icon-rotate');
+                        btn.removeClass('faq_info_btn_active').eq(index).addClass('faq_info_btn_active');
+                        btnContent.removeClass('faq_info_show').eq(index).addClass('faq_info_show');
+                    }
+                    else {
+                        icon.removeClass('toggle-icon-rotate');
+                        btn.removeClass('faq_info_btn_active');
+                        btnContent.removeClass('faq_info_show');
                     };
-                    btnContent[i].classList.add('faq_info_show');
-                    btn[i].classList.add('faq_info_btn_active');
                 };
-                
-            };
-        };
-    </script> -->
+            });
+        });
+    </script>
 
     <div class="start_insurance_quotes">
         <img src="img//car.svg" alt="">
