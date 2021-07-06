@@ -230,6 +230,21 @@ a {
     text-align: center;
     width: 300px;
     padding-bottom: 50px;
+    transition: 1s;
+}
+
+.services-block-start {
+    transform: rotate(-90deg);
+}
+
+.services-block-end {
+    transform: rotate(90deg);
+}
+
+.services-rotate {
+    padding-left: 0;
+    padding-right: 0;
+    transform: rotate(0deg);
 }
 
 .services-content {
@@ -238,9 +253,10 @@ a {
     justify-content: center;
 }
 
-.services hr {
-    width: 300px;
+.hr_1 {
     margin-bottom: 50px;
+    transition: 1.5s;
+    width: 0px;
 }
 
 .services-block>h2{ 
@@ -259,6 +275,18 @@ a {
     padding: 10px;
     color: white;
     cursor: pointer;
+}
+
+#portfolio-btn {
+    transition: background-color .3s;
+}
+
+#portfolio-btn:hover {
+    background-color: rgb(73, 55, 173);
+}
+
+.hr_animate {
+    width: 300px;
 }
 
 @media screen and (max-width: 956px) {
@@ -295,6 +323,11 @@ a {
     padding: 20px;
     font-size: 40px;
     text-align: center;
+    transition: background-color .3s;
+}
+
+.semi-block-content .btn:hover {
+    background-color: rgb(73, 55, 173);
 }
 
 @media screen and (max-width: 400px) {
@@ -391,11 +424,13 @@ a {
     flex-direction: column;
     align-items: center;
     font-family: Montserrat;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .contacts .container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contacts .container h1 {
@@ -403,34 +438,89 @@ a {
 }
 
 .contacts form {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .contacts input {
     height: 30px;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid rgba(73, 55, 173, 0.63);
+    background-color: none;
+    transition: border-color .3s;
     
+}
+
+.contacts input:focus {
+    border-color: rgb(73, 55, 173);
 }
 
 .contacts input[type=submit] {
     height: 50px;
-    width: 200px;
     margin-bottom: 60px;
+    border: none;
+    color: #fff;
+    background-color: rgba(73, 55, 173, 0.63);
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.contacts input[type=submit]:hover {
+    background-color: rgb(73, 55, 173);
 }
 
 .social {
+    padding-top: 20px;
     display: flex;
-    flex-direction: column;
-    padding-left: 20%;
     justify-content: space-between;
 }
 
-.social img {
-    width: 50px;
+.contacts svg {
+    width: 40px;
+    height: 40px;
+    padding: 0 20px;
 }
+
+.contacts svg path {
+    fill:inherit;
+    stroke:inherit;
+    stroke-width:inherit;
+}
+
+.icon-instagram, 
+.icon-telegram,
+.icon-vk,
+.icon-whatsapp{
+    fill: rgb(150, 150 ,150);
+    transition: .3s;
+}
+
+.icon-instagram:hover {
+    fill:rgb(208,59,154);
+}
+
+.icon-telegram:hover {
+    fill:rgb(42,163,220);
+}
+
+.icon-telegram:hover {
+    fill:rgb(42,163,220);
+}
+
+.icon-vk:hover {
+    fill:rgb(39,135,245);
+}
+
+.icon-whatsapp:hover {
+    fill: rgb(46,213,74);
+}
+
+
 
 @media screen and (max-width: 520px) {
     .contacts h1 {
@@ -463,10 +553,6 @@ a {
     position: fixed;
     left:90%;
     bottom: 10%;
-}
-
-#up img {
-    width: 50px;
 }
 
 .donate {
@@ -508,7 +594,7 @@ a {
     margin-top: 20px;
 }
 
-#close-icon {
+#donate-close-icon {
     position: relative;
     left: 90%;
     margin-bottom: 10px;
@@ -516,8 +602,18 @@ a {
     cursor: pointer;
 }
 
-#close-icon img {
+.close-icon {
     width: 30px;
+    height: 30px;
+    background-image: url(../../includes/img/icons/cancel.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.close-icon:hover {
+    fill: #fff;
 }
 
 /* modal window */
@@ -562,7 +658,7 @@ a {
     align-items: center;
     box-shadow: 0 0 10px rgba(0,0,0,50);
     font-family: Montserrat;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .show {
@@ -593,6 +689,7 @@ a {
 
 #modal-close-icon {
     position: relative;
+    top: 5%;
     left: 40%;
     cursor: pointer;
 }
@@ -601,7 +698,32 @@ a {
     width: 60px;
 }
 
+.modal .semi-block-content {
+    background-color: #fff;
+}
+
+.modal .semi-block-content .btn {
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.modal .semi-block-content .btn:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,10);
+}
+
 /* end modal */
+
+#arrow-top {
+    background-image: url(../../includes/img/icons/arrow-top.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
 
 @font-face {
     font-family: Comfortaa;

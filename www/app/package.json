@@ -1,0 +1,24 @@
+{
+  "name": "dev-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-cli serve --mode development --open"
+  },
+  "author": "Pelin Nikita",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
