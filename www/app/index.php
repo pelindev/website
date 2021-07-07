@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/includes/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="/src/js/jquery.js"></script>
     <title>PelinDev</title>
 </head>
 
@@ -140,14 +141,10 @@
             <div id="arrow-top"></div>
         </a></div>
     <script>
-        let btn = document.getElementById('up')
         window.addEventListener('scroll', function() {
-            if (pageYOffset >= 100) {
-                btn.style.display = 'block'
-            } else {
-                btn.style.display = 'none'
-            }
-        })
+            if (pageYOffset >= 100) $('#up').css({'display' : 'block'})
+            else $('#up').css({'display' : 'none'});
+        });
     </script>
     <? require_once('/var/www/app/donate-form.php'); ?>
     <? require_once('/var/www/app/modal.php'); ?>

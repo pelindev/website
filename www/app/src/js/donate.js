@@ -1,11 +1,11 @@
 export default function showDonate() {
-    window.setTimeout(donate, 20000)
+    window.setTimeout(donate, 20000);
 
     function donate() {
-        let form = document.querySelector('.donate')
-        form.style.display = 'block'
-        document.getElementById('donate-close-icon').onclick = function() {
-            form.style.display = 'none'
-        }
-    }
-}
+        var form = $('.donate');
+        form.css({'display' : 'block'});
+        $('#donate-close-icon').on('click', function() {
+            form.css({'display' : 'none'});
+        });
+    };
+};
