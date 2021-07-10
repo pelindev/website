@@ -18,7 +18,7 @@ a {
 }
 
 .main-background {
-    background-image: url(../../includes/img/home.jpg); 
+    background-image: url(/includes/img/home.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     position: fixed;
@@ -605,7 +605,7 @@ a {
 .close-icon {
     width: 30px;
     height: 30px;
-    background-image: url(../../includes/img/icons/cancel.svg);
+    background-image: url(/includes/img/icons/cancel.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -716,7 +716,7 @@ a {
 /* end modal */
 
 #arrow-top {
-    background-image: url(../../includes/img/icons/arrow-top.svg);
+    background-image: url(/includes/img/icons/arrow-top.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -727,12 +727,12 @@ a {
 
 @font-face {
     font-family: Comfortaa;
-    src: url(../../includes/fonts/Comfortaa/Comfortaa-Bold.ttf);
+    src: url(/includes/fonts/Comfortaa/Comfortaa-Bold.ttf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(../../includes/fonts/Montserrat/Montserrat-Medium.ttf);
+    src: url(/includes/fonts/Montserrat/Montserrat-Medium.ttf);
     font-weight: normal;
     font-style: normal;
 }

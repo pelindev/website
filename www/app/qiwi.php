@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require '/var/www/app/vendor/autoload.php';
 
 const SECRET_KEY = 'eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Im04aTN6NC0wMCIsInVzZXJfaWQiOiI3OTk5NjkyMjcwOSIsInNlY3JldCI6IjhmN2RiZjcxZDY0NTUwMmZiOTE3ZjAzZGY4ODViMWJjZjdjMjJkZWFkOWM1Zjc0ZmQyNGUxZmY0YTFkY2E2NzEifX0=';
 $billPayments = new Qiwi\Api\BillPayments(SECRET_KEY);

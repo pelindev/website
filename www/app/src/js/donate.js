@@ -1,5 +1,5 @@
 export default function showDonate() {
-    window.setTimeout(donate, 20000);
+    window.setTimeout(donate, 2000);
 
     function donate() {
         var form = $('.donate');

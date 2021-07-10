@@ -15,7 +15,14 @@ module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, 'dist'),
         port:9001,
-        open: true
+        open: true,
+        publicPath: __dirname + 'dist',
+        proxy: [
+            {
+                path: /./,
+                target: "http://localhost:9001/dist/index.php"
+            }
+        ]
     },
     plugins: [
         new HtmlWebpackPlugin({
